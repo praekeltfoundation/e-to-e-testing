@@ -1,0 +1,14 @@
+{
+  "name": "codeceptjs_webdriver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webdriver.js",
+  "scripts": {
+    "test": "codeceptjs run --steps"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webdriverio": "^4.10.2"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "tests": "./*_register.js",
+  "timeout": 10000,
+  "output": "./output",
+  "helpers": {
+  	 "WebDriverIO": {
+      "url": "http://127.0.0.1:8000",
+      "browser": "firefox",
+      "host": "127.0.0.1",
+      "port": 4444
+    }
+  },
+  "include": {},
+  "bootstrap": false,
+  "mocha": {},
+  "name": "codeceptjs_webdriver"
+}
