@@ -1,1 +1,0 @@
-require('this-is-invalid-require and should fail');

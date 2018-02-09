@@ -4,10 +4,13 @@
   "output": "./output",
   "helpers": {
   	 "WebDriverIO": {
-      "url": "http://127.0.0.1:8000",
+      "url": "https://nurseconnect.org",
       "browser": "firefox",
+      "smartWait":5000,
       "host": "127.0.0.1",
-      "port": 4444
+      "port": 4444,
+      "restart": false
+
     }
   },
   "include": {},

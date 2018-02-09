@@ -9,6 +9,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "codeceptjs": "^1.1.4",
     "webdriverio": "^4.10.2"
+  },
+  "dependencies": {
+    "selenium-standalone": "^6.12.0"
   }
 }

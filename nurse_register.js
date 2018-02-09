@@ -1,8 +1,9 @@
 
 Feature('Hellow World');
 
-Scenario('test homepage UI', (I) => {
+Scenario('Test User Registration UI', (I) => {
 	//Check layout
+	//I.resizeWindow(1000,8500);
 	I.amOnPage('/'); //it opens tha page
 	I.see('Welcome to our community of learning and support!');
 	I.see('Sign Up Now');
@@ -23,6 +24,8 @@ Scenario('test homepage UI', (I) => {
 	I.fillField('#id_username', '0764270488')
 	I.fillField('#id_password','1234');
 	I.fillField('#id_confirm_password','1234');
+	I.scrollTo('#id_terms_and_conditions');
+	I.seeElementInDOM('#id_terms_and_conditions');
 	I.checkOption('#id_terms_and_conditions'); //agree to terms and conditions
 	I.click('Next');
 	I.wait(2); //wait for client side to render
